@@ -1,1 +1,8 @@
-<html><body><h2>Dashboard</h2><a href='lights.html'>Lights</a></body></html>
+<html><body><h2>Dashboard</h2><a href='lights.html'>Lights</a><script type="module" src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs"></script>
+<div id="myLandbot" style="width: 100%; height: px"></div>
+<script type="module">
+  var myLandbot = new Landbot.Container({
+    container: '#myLandbot',
+    configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-3478572-5VJ2WPNYT7RCRVCA/index.json',
+  });
+</script> </body></html>
